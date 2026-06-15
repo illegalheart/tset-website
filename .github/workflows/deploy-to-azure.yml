@@ -1,4 +1,4 @@
-name: Deploy to Azure
+name: Deploy to Azure Static Web App
 
 on:
   push:
@@ -10,7 +10,7 @@ env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
-  deploy:
+  build_and_deploy:
     runs-on: ubuntu-latest
     permissions:
       id-token: write
@@ -20,20 +20,16 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Azure Login
-        uses: azure/login@v2
+      - name: Build and Deploy
+        id: builddeploy
+        uses: Azure/static-web-apps-deploy@v1
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
-          auth-type: SERVICE_PRINCIPAL
-
-      - name: Deploy to Azure App Service
-        uses: azure/webapps-deploy@v3
-        with:
-          app-name: stwebapp-test
-          package: '.'
-          resource-group-name: rg-tset
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "/"
+          output_location: "dist"
+          skip_app_build: true
 
       - name: Deployment Status
-        run: echo "Successfully deployed to Azure App Service stwebapp-test"
+        run: echo "Successfully deployed to Azure Static Web App at https://orange-rock-0dfa07100.7.azurestaticapps.net"
