@@ -68,9 +68,10 @@ p {
     align-items: center;
     gap: 10px;
     color: var(--navy);
-    font-size: 1.1rem;
+    font-size: 0.9rem;
     font-weight: 800;
-    letter-spacing: 0.12em;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
 }
 
 .logo-mark {
@@ -677,6 +678,18 @@ p {
 
     .header-inner {
         min-height: 66px;
+        gap: 8px;
+    }
+
+    .logo {
+        gap: 6px;
+        font-size: 0.67rem;
+    }
+
+    .logo-mark {
+        width: 30px;
+        height: 30px;
+        border-radius: 8px;
     }
 
     .header-nav {
@@ -685,8 +698,8 @@ p {
 
     .header-nav .button {
         min-height: 38px;
-        padding: 7px 14px;
-        font-size: 0.72rem;
+        padding: 7px 10px;
+        font-size: 0.65rem;
     }
 
     .hero {
