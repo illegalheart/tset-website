@@ -289,7 +289,7 @@ p {
 
 .hero-visual {
     position: relative;
-    min-height: 440px;
+    min-height: 520px;
 }
 
 .orbit {
@@ -329,10 +329,11 @@ p {
 }
 
 .visual-card-main {
-    top: 46px;
+    top: 64px;
     right: 22px;
     left: 22px;
     padding: 24px;
+    overflow: hidden;
     border-radius: 26px;
     text-align: center;
 }
@@ -352,8 +353,10 @@ p {
 }
 
 .profile-illustration {
-    width: min(100%, 310px);
-    margin: 0 auto 22px;
+    width: min(100%, 260px);
+    max-width: 260px;
+    height: auto;
+    margin: 0 auto 18px;
     display: block;
     border-radius: 24px;
     box-shadow: 0 18px 42px rgba(16, 42, 67, 0.18);
@@ -807,6 +810,7 @@ p {
 
     .hero-visual {
         width: min(520px, 100%);
+        min-height: 500px;
         margin-inline: auto;
     }
 
@@ -895,7 +899,7 @@ p {
     }
 
     .hero-visual {
-        min-height: 360px;
+        min-height: 430px;
     }
 
     .hero-visual::before {
@@ -903,7 +907,7 @@ p {
     }
 
     .visual-card-main {
-        top: 62px;
+        top: 58px;
         right: 8px;
         left: 8px;
         padding: 20px;
@@ -914,7 +918,8 @@ p {
     }
 
     .profile-illustration {
-        width: min(100%, 230px);
+        width: min(100%, 210px);
+        max-width: 210px;
         margin-bottom: 16px;
         border-radius: 20px;
     }
