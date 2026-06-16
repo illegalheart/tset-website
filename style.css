@@ -213,9 +213,9 @@ p {
 .hero-grid {
     position: relative;
     display: grid;
-    grid-template-columns: minmax(0, 1.08fr) minmax(360px, 0.92fr);
+    grid-template-columns: minmax(0, 1.16fr) minmax(340px, 0.84fr);
     align-items: center;
-    gap: 70px;
+    gap: 58px;
 }
 
 .eyebrow {
@@ -229,13 +229,14 @@ p {
 .hero h1 {
     margin-bottom: 28px;
     color: var(--navy);
-    font-size: clamp(2.7rem, 5.6vw, 4.6rem);
+    font-size: clamp(2.7rem, 4.3vw, 3.75rem);
     line-height: 1.12;
-    letter-spacing: -0.055em;
+    letter-spacing: -0.045em;
 }
 
 .hero h1 span {
     color: var(--blue);
+    white-space: nowrap;
 }
 
 .hero-lead {
@@ -877,6 +878,10 @@ p {
     .hero h1 {
         margin-bottom: 22px;
         font-size: clamp(2.45rem, 12vw, 3.45rem);
+    }
+
+    .hero h1 span {
+        white-space: normal;
     }
 
     .hero-lead {
