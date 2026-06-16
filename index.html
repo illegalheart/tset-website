@@ -3,22 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="中小企業の業務に合わせたシステム構築を、企画から運用まで一貫して支援します。">
-    <title>生成AIで中小企業を元気にする会社 | システム構築・業務改善</title>
+    <meta name="description" content="AIフルコミットは、ChatGPT、Codex、画像生成AI、GitHub Actionsなどを仕事・発信・自動化に落とし込む生成AI活用サポートです。">
+    <meta property="og:title" content="AIフルコミット｜生成AI活用">
+    <meta property="og:description" content="生成AIを、知識で終わらせない。仕事・発信・自動化に落とし込むAI活用サポート。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <title>AIフルコミット｜生成AI活用・業務自動化サポート</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header class="site-header">
         <div class="container header-inner">
-            <a class="logo" href="#top" aria-label="生成AIで中小企業を元気にする会社 トップへ">
+            <a class="logo" href="#top" aria-label="AIフルコミット トップへ">
                 <span class="logo-mark" aria-hidden="true">AI</span>
-                <span>生成AIで中小企業を元気にする会社</span>
+                <span>
+                    <strong>AIフルコミット</strong>
+                    <small>生成AI活用</small>
+                </span>
             </a>
             <nav class="header-nav" aria-label="メインナビゲーション">
+                <a href="#problems">課題</a>
                 <a href="#services">サービス</a>
-                <a href="#strengths">私たちの強み</a>
-                <a href="#flow">ご相談の流れ</a>
-                <a class="button button-small" href="#contact">無料相談する</a>
+                <a href="#cases">事例</a>
+                <a href="#faq">FAQ</a>
+                <a class="button button-small" href="#contact">無料で相談する</a>
             </nav>
         </div>
     </header>
@@ -27,56 +35,85 @@
         <section class="hero">
             <div class="container hero-grid">
                 <div class="hero-content">
-                    <p class="eyebrow">SYSTEM DEVELOPMENT PARTNER</p>
-                    <h1>業務に合う仕組みで、<br><span>会社の前進を支える。</span></h1>
+                    <p class="eyebrow">AI IN ACTION</p>
+                    <h1>生成AIを、<br><span>知識で終わらせない。</span></h1>
                     <p class="hero-lead">
-                        中小企業の業務に合わせたシステム構築を、企画から運用まで支援します。
-                        業務効率化、Web開発、IT環境整備まで、相談しやすいパートナーとして伴走します。
+                        ChatGPT、Codex、画像生成AI、GitHub Actionsなどを使い、
+                        日々の作業やSNS運用を実際に効率化する仕組みを一緒に作ります。
                     </p>
                     <div class="hero-actions">
-                        <a class="button" href="#contact">無料相談する</a>
-                        <a class="text-link" href="#services">サービスを見る <span aria-hidden="true">→</span></a>
+                        <a class="button" href="#contact">無料で相談する</a>
+                        <a class="text-link" href="https://www.instagram.com/ai_fullcommit/" target="_blank" rel="noopener">Instagramで事例を見る <span aria-hidden="true">→</span></a>
                     </div>
-                    <ul class="hero-points" aria-label="対応方針">
-                        <li>要件整理から対応</li>
-                        <li>小規模なご相談も歓迎</li>
-                        <li>運用開始後もサポート</li>
+                    <ul class="hero-points" aria-label="対応できること">
+                        <li>初心者にもわかりやすく説明</li>
+                        <li>小さく試して安全に自動化</li>
+                        <li>失敗と改善まで含めて伴走</li>
                     </ul>
                 </div>
-                <div class="hero-visual" aria-label="企画、開発、運用をつなぐ一貫支援">
+
+                <div class="hero-visual" aria-label="AI活用フローのイメージ">
+                    <div class="orbit orbit-one" aria-hidden="true"></div>
+                    <div class="orbit orbit-two" aria-hidden="true"></div>
                     <div class="visual-card visual-card-main">
-                        <p>ONE-STOP SUPPORT</p>
-                        <strong>企画から運用まで<br>一貫してサポート</strong>
-                        <div class="visual-progress" aria-hidden="true">
-                            <span></span><span></span><span></span><span></span>
+                        <img class="profile-illustration" src="assets/ai-fullcommit-profile-no-circle.png" alt="AI IN ACTIONのプロフィールアイコン">
+                        <p>FULL COMMIT FLOW</p>
+                        <strong>試す → 直す → 仕組みにする</strong>
+                        <div class="visual-flow" aria-hidden="true">
+                            <span>ChatGPT</span>
+                            <span>Codex</span>
+                            <span>GitHub Actions</span>
                         </div>
                     </div>
                     <div class="visual-card visual-card-sub visual-card-top">
                         <span class="visual-icon" aria-hidden="true">01</span>
-                        <span>業務を整理する</span>
+                        <span>投稿・記事作成を効率化</span>
                     </div>
                     <div class="visual-card visual-card-sub visual-card-bottom">
                         <span class="visual-icon" aria-hidden="true">02</span>
-                        <span>使える仕組みにする</span>
+                        <span>人が確認する承認フロー</span>
                     </div>
                 </div>
             </div>
         </section>
 
-        <section class="section problems">
+        <section class="section problems" id="problems">
             <div class="container">
                 <div class="section-heading section-heading-center">
-                    <p class="eyebrow">BUSINESS CHALLENGES</p>
-                    <h2>こんな課題を、抱えていませんか？</h2>
-                    <p>日々の小さな不便から、新しい事業の仕組みづくりまで。<br>現場の状況を整理し、無理のない改善方法をご提案します。</p>
+                    <p class="eyebrow">COMMON CHALLENGES</p>
+                    <h2>AIを使いたい。でも、実務でどう使えばいいかわからない方へ</h2>
+                    <p>
+                        AIツールは増えているのに、SNS投稿、記事作成、画像生成、社内作業はまだ手作業のまま。
+                        まずは今の業務を整理し、AIで減らせる作業を見つけるところから始めます。
+                    </p>
                 </div>
                 <ul class="problem-list">
-                    <li><span class="check" aria-hidden="true">✓</span>Excel管理から脱却したい</li>
-                    <li><span class="check" aria-hidden="true">✓</span>社内業務を効率化したい</li>
-                    <li><span class="check" aria-hidden="true">✓</span>既存システムが使いにくい</li>
-                    <li><span class="check" aria-hidden="true">✓</span>Webサイトや業務アプリを作りたい</li>
-                    <li><span class="check" aria-hidden="true">✓</span>IT担当者が社内に少ない</li>
+                    <li><span class="check" aria-hidden="true">✓</span>AIツールが多すぎて選べない</li>
+                    <li><span class="check" aria-hidden="true">✓</span>SNS投稿や記事作成に時間がかかる</li>
+                    <li><span class="check" aria-hidden="true">✓</span>自動化したいが技術的なハードルが高い</li>
+                    <li><span class="check" aria-hidden="true">✓</span>AI生成っぽい成果物になってしまう</li>
+                    <li><span class="check" aria-hidden="true">✓</span>業務改善の進め方がわからない</li>
                 </ul>
+            </div>
+        </section>
+
+        <section class="section solution">
+            <div class="container solution-grid">
+                <div>
+                    <p class="eyebrow">OUR APPROACH</p>
+                    <h2>小さく試して、使える仕組みにする</h2>
+                </div>
+                <div class="solution-copy">
+                    <p>
+                        AIフルコミットでは、生成AIを実際の業務や発信に組み込み、使える形にします。
+                        最初から大きなシステムを作るのではなく、効果が見えやすい部分から試作し、
+                        人間が確認するポイントを残しながら安全に改善します。
+                    </p>
+                    <div class="note-card">
+                        <span aria-hidden="true">✦</span>
+                        <p>AIニュースの紹介だけでなく、実際に使ったこと、失敗したこと、改善したこと、仕組み化したことを共有します。</p>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -84,80 +121,92 @@
             <div class="container">
                 <div class="section-heading">
                     <p class="eyebrow">SERVICES</p>
-                    <h2>必要なところから、<br>一緒に整えていきます。</h2>
-                    <p>システム開発だけでなく、身近な業務改善やインフラ整備まで幅広く対応します。</p>
+                    <h2>生成AIを実務に落とし込むサポート</h2>
+                    <p>相談、設計、試作、研修まで。個人事業主や中小企業担当者が始めやすい単位で支援します。</p>
                 </div>
                 <div class="service-grid">
                     <article class="service-card">
                         <span class="card-number">01</span>
-                        <h3>業務システム構築</h3>
-                        <p>販売・顧客・案件管理など、現場の業務フローに合った使いやすいシステムを構築します。</p>
+                        <h3>生成AI活用相談</h3>
+                        <p>ChatGPT、Codex、画像生成AIなどを業務にどう使うかをヒアリングし、実用的な活用方法を提案します。</p>
                     </article>
                     <article class="service-card">
                         <span class="card-number">02</span>
-                        <h3>Webサイト・LP制作</h3>
-                        <p>目的と伝えたい価値を整理し、成果につながる分かりやすいWebサイトを制作します。</p>
+                        <h3>SNS運用自動化構築</h3>
+                        <p>Instagram、note、ブログなどの投稿作成・承認・公開フローを整理し、AIとGitHub Actionsで効率化します。</p>
                     </article>
                     <article class="service-card">
                         <span class="card-number">03</span>
-                        <h3>Google Workspace活用支援</h3>
-                        <p>日々の情報共有や共同作業がスムーズになるよう、導入・設定・活用を支援します。</p>
+                        <h3>AI業務改善サポート</h3>
+                        <p>日常業務の中で時間がかかっている作業を洗い出し、AIや自動化ツールで削減できる部分を設計します。</p>
                     </article>
                     <article class="service-card">
                         <span class="card-number">04</span>
-                        <h3>Excel・スプレッドシート業務改善</h3>
-                        <p>手作業や重複入力を見直し、自動化やデータ整理で日常業務の負担を減らします。</p>
+                        <h3>AI導入ミニ研修</h3>
+                        <p>初心者向けに、プロンプト作成、画像生成、業務活用の基本を専門用語少なめで説明します。</p>
                     </article>
                     <article class="service-card">
                         <span class="card-number">05</span>
-                        <h3>サーバー・ネットワーク構築支援</h3>
-                        <p>安心して業務を進められる、安定したITインフラの設計・導入を支援します。</p>
+                        <h3>自動化プロトタイプ制作</h3>
+                        <p>小さな業務自動化やAI活用フローを試作し、実際に動く形で検証します。</p>
                     </article>
-                    <article class="service-card">
+                    <article class="service-card service-card-accent">
                         <span class="card-number">06</span>
-                        <h3>システム運用・保守サポート</h3>
-                        <p>導入後の問い合わせや改善にも継続して対応し、システムの活用を支えます。</p>
+                        <h3>AI活用の相談先づくり</h3>
+                        <p>「何から聞けばよいかわからない」状態から、業務に合わせた始め方を一緒に整理します。</p>
                     </article>
                 </div>
             </div>
         </section>
 
-        <section class="section strengths" id="strengths">
-            <div class="container strengths-grid">
-                <div class="strengths-intro">
-                    <p class="eyebrow">OUR STRENGTHS</p>
-                    <h2>技術だけでなく、<br>業務を理解することから。</h2>
-                    <p>
-                        高機能でも、現場で使われなければ意味がありません。
-                        丁寧なヒアリングを通じて、本当に必要な仕組みを見極めます。
-                    </p>
-                    <div class="strength-stat">
-                        <strong>企画・開発・インフラ</strong>
-                        <span>窓口を分けずにまとめて相談可能</span>
-                    </div>
+        <section class="section cases" id="cases">
+            <div class="container cases-grid">
+                <div class="section-heading">
+                    <p class="eyebrow">CASE STUDIES</p>
+                    <h2>実際に試したAI活用を、事例として発信</h2>
+                    <p>AIフルコミットでは、Instagram運用そのものも自動化の実験対象にしています。</p>
+                    <a class="button button-light" href="https://www.instagram.com/ai_fullcommit/" target="_blank" rel="noopener">Instagramを見る</a>
                 </div>
-                <ol class="strength-list">
-                    <li>
+                <div class="case-list">
+                    <article>
                         <span>01</span>
-                        <div><h3>要件整理から実装まで一貫対応</h3><p>まだ要件が固まっていない段階から、課題の整理と優先順位づけを支援します。</p></div>
-                    </li>
-                    <li>
+                        <h3>Instagram投稿をCodexとGitHub Actionsで自動化</h3>
+                        <p>投稿内容をJSONで管理し、GitHubに上げたら自動投稿できる流れを構築。</p>
+                    </article>
+                    <article>
                         <span>02</span>
-                        <div><h3>小規模企業でも相談しやすい</h3><p>小さな改善や部分的なご依頼にも、状況に合わせて柔軟に対応します。</p></div>
-                    </li>
-                    <li>
+                        <h3>画像生成から投稿までの流れを整理</h3>
+                        <p>AI画像を生成AIっぽく見せすぎないための調整ポイントも含めて検証。</p>
+                    </article>
+                    <article>
                         <span>03</span>
-                        <div><h3>既存業務に合わせた現実的な提案</h3><p>現場の負担や予算を考慮し、無理なく定着する方法をご提案します。</p></div>
-                    </li>
-                    <li>
+                        <h3>人間が確認する承認制フロー</h3>
+                        <p>最初から全自動にせず、PR確認のように安全に公開できる仕組みを設計。</p>
+                    </article>
+                    <article>
                         <span>04</span>
-                        <div><h3>生成AIを活用したスピーディーな開発</h3><p>新しい技術を適切に取り入れ、品質を保ちながら素早く形にします。</p></div>
-                    </li>
-                    <li>
-                        <span>05</span>
-                        <div><h3>インフラ・ネットワークも含めて相談可能</h3><p>アプリだけでなく、安定稼働に必要なIT環境までまとめて支援します。</p></div>
-                    </li>
-                </ol>
+                        <h3>失敗と改善の記録</h3>
+                        <p>API設定、画像生成、投稿自動化で詰まった点も、実践知として共有。</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section posts">
+            <div class="container">
+                <div class="section-heading section-heading-center">
+                    <p class="eyebrow">INSTAGRAM TOPICS</p>
+                    <h2>発信テーマ</h2>
+                    <p>生成AIを「知っている」で終わらせず、仕事・発信・自動化に落とし込む過程を投稿します。</p>
+                </div>
+                <div class="topic-grid">
+                    <article><span>01</span><h3>生成AIの実務活用</h3><p>ChatGPT、Codex、画像生成AIを仕事や発信に使う方法。</p></article>
+                    <article><span>02</span><h3>AI自動化の実例</h3><p>SNS運用、記事作成、業務フロー改善の具体例。</p></article>
+                    <article><span>03</span><h3>初心者向けTips</h3><p>専門用語を避け、すぐ真似できる実践的な使い方。</p></article>
+                    <article><span>04</span><h3>失敗と改善の記録</h3><p>うまくいかなかったことから学べる注意点。</p></article>
+                    <article><span>05</span><h3>AIツール比較</h3><p>用途に合わせたツールの使い分け。</p></article>
+                    <article><span>06</span><h3>人間の確認ポイント</h3><p>安全に自動化するために残すべき判断箇所。</p></article>
+                </div>
             </div>
         </section>
 
@@ -165,17 +214,40 @@
             <div class="container">
                 <div class="section-heading section-heading-center">
                     <p class="eyebrow">WORKFLOW</p>
-                    <h2>ご相談から運用までの流れ</h2>
-                    <p>課題やご希望を丁寧に確認し、納得いただきながら進めます。</p>
+                    <h2>相談の流れ</h2>
+                    <p>いきなり大きく作らず、まずは減らせる作業を見つけ、小さな試作から始めます。</p>
                 </div>
                 <ol class="flow-list">
-                    <li><span>01</span><h3>お問い合わせ</h3><p>まずはお気軽にご相談ください。</p></li>
-                    <li><span>02</span><h3>ヒアリング</h3><p>課題やご希望を整理します。</p></li>
-                    <li><span>03</span><h3>提案・見積</h3><p>最適な進め方をご提案します。</p></li>
-                    <li><span>04</span><h3>設計・制作</h3><p>確認を重ねながら形にします。</p></li>
-                    <li><span>05</span><h3>テスト・確認</h3><p>実際の業務を想定して検証します。</p></li>
-                    <li><span>06</span><h3>納品・運用サポート</h3><p>導入後の活用も支援します。</p></li>
+                    <li><span>01</span><h3>お問い合わせ</h3><p>Instagram DMなどからお気軽にご相談ください。</p></li>
+                    <li><span>02</span><h3>現状ヒアリング</h3><p>業務、発信、手作業の内容を整理します。</p></li>
+                    <li><span>03</span><h3>自動化できる作業の整理</h3><p>効果が出やすい部分を優先して選びます。</p></li>
+                    <li><span>04</span><h3>小さな試作</h3><p>AI活用フローを実際に動く形で検証します。</p></li>
+                    <li><span>05</span><h3>確認ポイント設計</h3><p>人間が見るべき箇所を残し、安全に運用します。</p></li>
+                    <li><span>06</span><h3>実運用へ改善</h3><p>使いながら無理のない仕組みに育てます。</p></li>
                 </ol>
+            </div>
+        </section>
+
+        <section class="section faq" id="faq">
+            <div class="container faq-grid">
+                <div>
+                    <p class="eyebrow">FAQ</p>
+                    <h2>よくある質問</h2>
+                </div>
+                <div class="faq-list">
+                    <details open>
+                        <summary>AI初心者でも大丈夫ですか？</summary>
+                        <p>はい。専門用語をできるだけ使わず、実際の業務に合わせて説明します。</p>
+                    </details>
+                    <details>
+                        <summary>すぐに全自動化できますか？</summary>
+                        <p>まずは人間が確認するポイントを残しながら、小さく安全に始めることをおすすめしています。</p>
+                    </details>
+                    <details>
+                        <summary>SNS以外の業務も相談できますか？</summary>
+                        <p>はい。文章作成、資料作成、定型作業、情報整理なども相談できます。</p>
+                    </details>
+                </div>
             </div>
         </section>
 
@@ -183,12 +255,18 @@
             <div class="container contact-inner">
                 <div>
                     <p class="eyebrow">CONTACT</p>
-                    <h2>まずは、今のお悩みを<br>聞かせてください。</h2>
+                    <h2>まずは、AIで減らせる作業を一緒に見つけましょう。</h2>
                 </div>
                 <div class="contact-content">
-                    <p>現在の業務課題や作りたいシステムについて、お気軽にご相談ください。まだ具体的な内容が決まっていない段階でも大丈夫です。</p>
-                    <a class="button button-white" href="#contact">無料相談する <span aria-hidden="true">→</span></a>
-                    <small>ご相談内容を確認後、担当者よりご連絡します。</small>
+                    <p>
+                        無料相談はInstagram DMから受け付けています。
+                        「AI活用を相談したい」「SNS運用を効率化したい」など、今の状況を短く送ってください。
+                    </p>
+                    <div class="contact-actions">
+                        <a class="button button-white" href="https://www.instagram.com/ai_fullcommit/" target="_blank" rel="noopener">無料で相談する <span aria-hidden="true">→</span></a>
+                        <a class="button button-outline" href="https://www.instagram.com/ai_fullcommit/" target="_blank" rel="noopener">Instagramで事例を見る</a>
+                    </div>
+                    <small>問い合わせフォーム、LINE公式、予約リンクは準備でき次第このページに追加できます。</small>
                 </div>
             </div>
         </section>
@@ -196,12 +274,15 @@
 
     <footer class="site-footer">
         <div class="container footer-inner">
-            <a class="logo logo-footer" href="#top" aria-label="生成AIで中小企業を元気にする会社 トップへ">
+            <a class="logo logo-footer" href="#top" aria-label="AIフルコミット トップへ">
                 <span class="logo-mark" aria-hidden="true">AI</span>
-                <span>生成AIで中小企業を元気にする会社</span>
+                <span>
+                    <strong>AIフルコミット</strong>
+                    <small>生成AI活用</small>
+                </span>
             </a>
-            <p>システム構築・業務改善・Web開発を、もっと身近に。</p>
-            <small>&copy; 2026 生成AIで中小企業を元気にする会社. All Rights Reserved.</small>
+            <p>生成AIを仕事と暮らしでフル活用。実際に試したAIツール・自動化・活用事例を発信します。</p>
+            <small>&copy; 2026 AIフルコミット. All Rights Reserved.</small>
         </div>
     </footer>
 </body>
